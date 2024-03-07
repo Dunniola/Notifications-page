@@ -38,7 +38,7 @@ Mobile design
 ### Links
 
 - Solution URL: [View Demo](https://github.com/Dunniola/Notifications-page.git)
-- Live Site URL: [Dunniola]()
+- Live Site URL: [GithubApp](https://dunniola.github.io/Notifications-page/)
 
 ## My process
 
@@ -53,7 +53,7 @@ Mobile design
 
 ## Author
 
-- Website - [Dunniola]()
+- Website - [Dunniola](https://dunniola.github.io/Notifications-page/)
 - Frontend Mentor - [@Dunniola](https://www.frontendmentor.io/profile/Dunniola)
 - Twitter - [@Eduoladunni](https://www.twitter.com/Eduoladunni)
 
