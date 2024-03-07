@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+}
+@media(min-width:960px){
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-size: 1rem;
+    background-color: hsl(205, 33%, 90%);
+    font-family: "Plus Jakarta Sans";
+}
+}
+.container{
+    max-width: 43rem;
+    background-color: white;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 0.5rem;
+    color:hsl(219, 14%, 63%);
+}
+header{
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 1.2rem;
+    color:  hsl(224, 21%, 14%);;
+
+}
+.blue{
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    padding:0  0.5rem;
+    border-radius: 0.3rem;
+    margin-left: 0.3rem;
+   
+}
+.aside{
+    color:  hsl(219, 14%, 63%);
+    cursor: pointer;
+}
+.aside:hover{
+    color:  hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+img{
+    height: 2rem;
+    position: relative;
+    left: 0.8rem;
+   
+     
+   
+  
+}
+.dark{
+    color: hsl(224, 21%, 14%);;
+    font-weight: 700;
+    
+}
+.dark:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+    font-weight: 800;
+}
+.darkgray{
+    color:hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+.darkgray:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.darkblue{
+   
+    font-weight: 800;
+   
+}
+.darkblue:hover{
+    color:hsl(219, 85%, 26%); 
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerOne{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color:hsl(210, 60%, 98%);
+    margin-bottom: 0.3rem;
+    border-radius: 0.3rem;
+    max-height: 5rem;
+    
+   
+    
+   
+}
+.align{
+     position: relative;
+    bottom: 0.5rem;
+
+     
+
+}
+ .align div{
+    position: relative;
+     bottom: 1rem; 
+    
+} 
+.containerTwo{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color:hsl(210, 60%, 98%);
+    margin-bottom: 0.3rem;
+    border-radius: 0.3rem;
+    max-height: 5rem;
+  
+    
+    
+}
+.containerThree{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color:hsl(210, 60%, 98%);
+    margin-bottom: 0.3rem;
+    border-radius: 0.3rem;
+    max-height: 5rem;
+  
+}
+.containerFour{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    border-radius: 0.3rem;
+    max-height: 5rem;
+   
+  
+}
+.containerFour .align{
+    margin-top: 1rem;
+}
+.answer{
+    border: 1px solid  hsl(211, 68%, 94%);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 3.5rem;
+    cursor: pointer;
+   
+}
+.answer:hover{
+    background-color:  hsl(211, 68%, 94%);
+}
+.containerFive{
+    display: flex;
+     gap: 6.5rem; 
+    align-items: center;
+    margin-bottom: 0.3rem;
+    border-radius: 0.3rem;
+    max-height: 5rem;
+  
+    
+
+}
+.containerFive .align{
+    position: relative;
+    right: 4.5rem;
+   
+}
+.chess{
+   cursor: pointer;
+}
+.containerSix{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    border-radius: 0.3rem;
+    max-height: 5rem;
+  
+}
+.containerSeven{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    border-radius: 0.3rem;
+    max-height: 5rem;
+  
+}
+
+.red{
+    color: red;
+    font-size: 2rem;
+    border-radius: 50%;
+     visibility: visible;
+    
+  
+}
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+    .attribution a {
+     color: hsl(228, 45%, 44%);
+}
+@media(max-width:960px) {
+    body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    
+    background-color: hsl(205, 33%, 90%);
+    font-family: "Plus Jakarta Sans";
+}
+       
+    .container{
+        max-width: 21rem;
+        padding: 1.2rem;
+        padding-bottom: 0;
+      
+    }
+    header{
+        font-size: 0.7rem;
+        align-items: center;
+    }
+    main{
+        font-size: 0.8rem;
+    }
+    
+    .align{
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-size: 0.8rem;
+        
+    }
+    
+    
+    .containerOne .align p{
+        position: relative;
+        top: rem;
+        line-height: 0.6rem;
+        
+    }
+    .containerOne .align div{
+        position: relative;
+        
+       
+    }
+    .containerTwo .align{
+       position: relative;
+       bottom: 1.5rem;
+    }
+    .containerThree .align{
+        line-height: 0.5rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    
+        
+    .containerThree .align div{
+        margin-top: 1rem;
+    }
+    .containerFive{
+       gap: 0rem;
+       
+    }
+    .containerFive .align{
+        position: relative;
+        left: 2rem;
+        padding-right: 3rem;
+    }
+    .chess{
+        position: relative;
+        right: 1rem;
+    }
+    .containerSix{
+        margin-top: 1rem;
+    }
+    .align div{
+        margin-top: 1.5rem;
+    }
+    .containerThree .align div{
+        margin-top: 2rem;
+    }
+    .containerThree .align{
+        margin-top: 2rem;
+    }
+}
